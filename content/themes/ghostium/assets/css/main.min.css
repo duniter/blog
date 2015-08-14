@@ -2491,7 +2491,7 @@ ul ul, ul ol, ol ol, ol ul {
 
 blockquote {
     font-style: italic;
-    border-left: 5px solid #57a3e8;
+    border-left: 5px solid #6fb79a;
     padding-left: 20px;
     padding-bottom: 3px;
     margin: 0 0 30px -25px
@@ -2542,9 +2542,12 @@ tbody > tr:nth-child(odd) {
 }
 
 a {
-    color: #333;
     -webkit-transition: color .3s;
     transition: color .3s
+}
+
+a, h1, h2, h3, h4, h5, h6 {
+  color: #145758;
 }
 
 a:focus, a:hover, a:active {
@@ -2790,7 +2793,7 @@ body.drawer-transition {
     border: 0;
     text-align: center;
     vertical-align: middle;
-    background-color: #232323;
+    background-color: #145758;
     color: #fff;
     -webkit-transition: opacity .3s linear;
     transition: opacity .3s linear
@@ -3440,4 +3443,30 @@ pre[class*=language-] {
 
 .gist {
     font-size: 14px
+}
+
+.center {
+  text-align: center;
+}
+
+.side-menu {
+  margin-bottom: 200px;
+}
+
+.side-menu h2 {
+  color: #145758;
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.side-menu i {
+  width: 40px;
+}
+
+.btn.featured {
+  width: 200px;
+}
+
+nav ul li.drawer-list-item a i.fa {
+  width: 35px;
 }
