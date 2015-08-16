@@ -3470,3 +3470,7 @@ pre[class*=language-] {
 nav ul li.drawer-list-item a i.fa {
   width: 35px;
 }
+
+.catchphrase {
+  margin-top: 35px;
+}
